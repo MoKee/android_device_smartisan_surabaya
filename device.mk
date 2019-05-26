@@ -26,6 +26,7 @@ $(call inherit-product, vendor/smartisan/surabaya/surabaya-vendor.mk)
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOTANIMATION_INTRO := $(LOCAL_PATH)/bootanimation
 
 # Inherit from msm8996-common
 $(call inherit-product, device/smartisan/msm8996-common/common.mk)
